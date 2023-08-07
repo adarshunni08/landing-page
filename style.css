@@ -63,3 +63,28 @@ img{
     width: 100px;
     height: auto;
 }
+
+.content-one{
+    font-size: 32px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.content-two{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.first-trophy, .second-trophy, .third-trophy, .fourth-trophy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
