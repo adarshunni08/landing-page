@@ -1,0 +1,65 @@
+.header{
+    background-color: #1F2937;
+}
+
+.header-one {
+    font-size: 32px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.header-two{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    padding: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: start;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.club{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.fan{
+    font-size: 18px;
+    color: white;
+}
+
+button{
+    background-color: #3882F6;
+    font-size: 18px;
+    max-width: 100px;
+}
+
+
+.team-photo img{
+    height: auto;
+    width: 600px;
+}
+img{
+    width: 100px;
+    height: auto;
+}
